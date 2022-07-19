@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login4-facaebook</title>
+        <style>
+            .parent{
+                width: 100vw;
+                height: 100vh;
+                background-color:darkgrey;
+                display: flex;
+            }
+            .ch1{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                padding-left: 50px;
+            }
+            .ch2{
+                width: 50%;
+                height: 100%;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+            }
+            .h1{
+                color:blue;
+                font-size: 80px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .para{
+                font-size: 40px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .uname{
+                padding: 8px;
+                border: 1px solid gray;
+                width: 90%;
+                border-radius: 5px;
+            }
+            .pword{
+                padding: 8px;
+                border: 1px solid gray;
+                width: 90%;
+                border-radius: 5px;
+            }
+            .login{
+                background-color: blue;
+                padding: 8px;
+                border: 1px solid gray;
+                width: 95%;
+                border-radius: 5px;
+                color: white;
+            }
+            .p{
+                color: green;
+            }
+            .cna{
+                background-color: green;
+                padding: 8px;
+                border: 1px solid gray;
+                width: 70%;
+                border-radius: 5px;
+                color: white;
+            }
+            .form{
+                background-color: white;
+                border: 5px solid white;
+                border-radius: 10px;
+                width: 350px;
+                height: 250px;
+                text-align: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                box-shadow: 10px 10px 10px gray;
+            }
+            .end{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="ch1">
+                <div>
+                    <h1 class="h1">facebook</h1>
+                    <p class="para"> Facebook helps you connect and share <br> with the people in your life.</p>
+                </div>    
+            </div>
+            <div class="ch2">
+                <div>
+                    <form class="form">
+                        <input type="text" placeholder="Email address or phone number" class="uname"><br><br>
+                        <input type="password" placeholder="Password" class="pword"><br><br>
+                        <button class="login">Log In</button>
+                        <p class="p">Forgotten password?</p>
+                        <hr><br>
+                        <button class="cna">Create New Account</button>
+                    </form>
+                    <p class="end"><b>Create a Page</b> for a celebrity, brand or business</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 

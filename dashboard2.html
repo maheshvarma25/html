@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DASHBOARD-2</title>
+        <style>
+            .superparent{
+                width: 100vw;
+                height: 100vh;
+                background-color: skyblue;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .parent{
+                width: 90%;
+                height: 90%;
+                background-color:brown;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px gray;
+                display: flex;
+            }
+            .child1{
+                width: 15%;
+                height: 100%;
+                background-color: white;
+                text-align: center;
+            }
+            .img1{
+                border: 5px solid skyblue;
+                border-radius: 50%;
+            }
+            .child2{
+                width: 85%;
+                height: 100%;
+                background-color:bisque;
+            }
+            .top{
+                width: 100%;
+                height: 10%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .pp{
+                color: skyblue;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+            }
+            .cs{
+                padding: 8px;
+                color: white;
+                background-color: purple;
+                border: 1px solid bisque ;
+                border-radius: 5px;
+            }
+            .middle{
+                width: 100%;
+                height: 40%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .m{
+                width: 25%;
+                height: 90%;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px gray;
+            }
+            .bottom{
+                width: 100%;
+                height: 50%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .b1{
+                width: 55%;
+                height: 80%;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px gray;
+            }
+            .b2{
+                width: 25%;
+                height: 80%;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px gray;
+            }
+            .heading1{
+                width: 100%;
+                height: 20%;
+                text-align: center;
+                font-family: Calibri;
+            }
+            .heading2{
+                width: 100%;
+                height: 20%;
+                /*text-align: center;*/
+                font-family: Calibri;
+            }
+            .hr{
+                width: 80%;
+                font-weight: 900;
+                color: skyblue;
+            }
+            .b{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .lout{
+                padding: 8px;
+                width: 70%;
+                background-color: skyblue;
+                color: white;
+                border: 1px solid white;
+                border-radius: 5px;
+                box-shadow: 0px 0px 2px gray;
+            }
+        </style>
+    </head>
+    <body> 
+        <div class="superparent">
+            <div class="parent">
+                <div class="child1">
+                    <br>
+                    <br>
+                    <img class="img1" src="image1.jfif" width="100px" height="100px"><br>
+                    <b>Ken Kalil</b>
+                    <p>kenk@gmail.com</p>
+                    <hr class="hr"><br>
+                    <b class="b">DASHBOARD</b><br><br>
+                    <b class="b">ACCOUNT PROFILE</b><br><br>
+                    <b class="b">EXERCISE PLANS</b><br><br>
+                    <b class="b">DIET PLANS</b><br><br>
+                    <b class="b">SUBSCRIPTION</b><br><br>
+                    <b class="b">EXTRA SERVICES</b><br><br>
+                    <hr class="hr"><br>
+                    <button class="lout"><b>LOG OUT</b></button>
+                </div>
+                <div class="child2">
+                    <div class="top">
+                        <pre class="pp"><b>         PERSONAL PROGRESS</b></pre>
+                        <pre><button class="cs"><b>CONTACT SUPPORT</b></button>       </pre>
+                    </div>
+                    <div class="middle">
+                        <div class="m"></div>
+                        <div class="m">
+                            <div class="heading1"><h3>Cardio</h3></div>
+                        </div>
+                        <div class="m">
+                            <div class="heading1"><h3>Climbing Inclination</h3></div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="b1">
+                            <div class="heading2"><h3>Progress Tracking</h3></div>
+                        </div>
+                        <div class="b2">
+                            <div class="heading1"><h3>Weekly goal achieved</h3></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

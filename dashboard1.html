@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DASHBOARD-1</title>
+        <style>
+            .parent{
+                width: 100vw;
+                height: 100vh;
+                background-color: black;
+                display: flex;
+            }
+            .ch1{
+                width: 20%;
+                height: 100%;
+                background-color:black;
+            }
+            .ch2{
+                width: 80%;
+                height: 100%;
+                background-color: blueviolet;
+            }
+            .top{
+                width: 100%;
+                height: 10%;
+                background-color:antiquewhite;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .st1,.st2{
+                width: 15%;
+                height: 90%;
+                background-color: white;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border:1px solid white;
+                box-shadow: 5px 5px 5px darkgrey;
+                border-radius: 5px;
+            }
+            .search{
+                padding: 5px;
+            }
+            .sout{
+                padding: 5px;
+                width: 80%;
+            }
+            .middle{
+                width: 100%;
+                height: 30%;
+                background-color: darkgray;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .bottom{
+                width: 100%;
+                height: 60%;
+                background-color: darkgrey;
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-start;
+            }
+            /* Child 1 styling */
+            .sch1{
+                width: 100%;
+                height: 8%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                border:1px solid black;
+                box-shadow: 1px 1px 1px black;
+                border-radius: 5px;
+            }
+            .scpre{
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                font-size: 15px;
+            }
+            /* child 1 styling */
+            .sm1{
+                width: 30%;
+                height: 90%;
+                background-color: blue;
+                border:1px solid gray;
+                box-shadow: 5px 5px 5px gray;
+                border-radius: 5px;
+            }
+            .sm2{
+                width: 30%;
+                height: 90%;
+                background-color:green;
+                border:1px solid gray;
+                box-shadow: 5px 5px 5px gray;
+                border-radius: 5px;
+            }
+            .sm3{
+                width: 30%;
+                height: 90%;
+                background-color: red;
+                border:1px solid gray;
+                box-shadow: 5px 5px 5px gray;
+                border-radius: 5px;
+            }
+            .smpre{
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                font-size: 30px;
+            }
+            .smbpre{
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+            }
+            .smtop{
+                width: 100%;
+                height: 30%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            .smmiddle{
+                width: 100%;
+                height: 50%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-end;
+            }
+            .smbottom{
+                width: 100%;
+                height: 20%;
+                display: flex;
+                justify-content: flex-end;
+                align-items:center;
+            }
+            .sb1{
+                width: 40%;
+                height: 80%;
+                background-color:white;
+                border:1px solid gray;
+                box-shadow: 5px 5px 5px gray;
+                border-radius: 5px;
+                margin-top: 20px;
+            }
+            .sb2{
+                width: 40%;
+                height: 70%;
+                background-color: white;
+                border:1px solid gray;
+                box-shadow: 5px 5px 5px gray;
+                border-radius: 5px;
+                margin-top: 20px;
+            }
+            .bchart{
+                width: 100%;
+                height: 20%;
+                background-color: darkgrey;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            .bimage{
+                width: 100%;
+                height: 80%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            .pre{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .noti{
+                width: 100%;
+                height: 20%;
+                background-color: darkgrey;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            .nc{
+                width: 100%;
+                height: 20%;
+                background-color: white;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="ch1">
+                <div class="sch1"><pre class="scpre"><b>  Spur</b></pre></div>
+                <div class="sch1"><pre class="scpre"><b>  Dashboard</b></pre></div>
+                <div class="sch1"><pre class="scpre"><b>  Charts</b></pre></div>
+                <div class="sch1"><pre class="scpre"><b>  Components</b></pre></div>
+                <div class="sch1"><pre class="scpre"><b>  Layouts</b></pre></div>
+                <div class="sch1"><pre class="scpre"><b>  About</b></pre></div>
+            </div>
+            <div class="ch2">
+                <div class="top">
+                    <div class="st1">
+                        <input type="text" class="search" placeholder="search">
+                    </div>
+                    <div class="st2">
+                        <button class="sout">SIGN OUT</button>
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="sm1">
+                        <div class="smtop"><pre class="smpre"><b>  Sign ups</b></pre></div>
+                        <div class="smmiddle"><pre class="smpre"><b>114  </b></pre></div>
+                        <div class="smbottom"><pre class="smbpre"><b>+25%</b> from last month </pre></div>
+                    </div>
+                    <div class="sm2">
+                        <div class="smtop"><pre class="smpre"><b>  Revenue</b></pre></div>
+                        <div class="smmiddle"><pre class="smpre"><b>$25,541  </b></pre></div>
+                        <div class="smbottom"><pre class="smbpre"><b>+17.5%</b> from last month </pre></div>
+                    </div>
+                    <div class="sm3">
+                        <div class="smtop"><pre class="smpre"><b>  Open tickets</b></pre></div>
+                        <div class="smmiddle"><pre class="smpre"><b></b></pre></div>
+                        <div class="smbottom"><pre class="smpre"><b></b> 5  </pre></div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="sb1">
+                        <div class="bchart"><pre class="pre"><b> Bar Chart</b></pre></div>
+                        <div class="bimage"><img src="barimg.png" width="100%" height="100%"></div>
+                    </div>
+                    <div class="sb2">
+                        <div class="noti"><pre class="pre"><b> Notifications</b></pre></div>
+                        <div class="nc">
+                            <pre class="pre"> New comment</pre>
+                            <pre class="pre">21 days ago </pre>
+                        </div>
+                        <div class="nc">
+                            <pre class="pre"> New comment</pre>
+                            <pre class="pre">21 days ago </pre>
+                        </div>
+                        <div class="nc">
+                            <pre class="pre"> New comment</pre>
+                            <pre class="pre">21 days ago </pre>
+                        </div>
+                        <div class="nc">
+                            <pre class="pre"> <ins>show all</ins></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
